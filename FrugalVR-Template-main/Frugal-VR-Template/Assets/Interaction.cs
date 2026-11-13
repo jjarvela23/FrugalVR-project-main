@@ -10,7 +10,7 @@ public class Interaction : Interactive
     }
     public new void Interact()
     {
-        transform.Rotate(Vector3.right * 20 * Time.deltaTime, Space.World);
+        transform.localScale = new Vector3(2f, 2f, 2f);
     }
 
     public void ChangeColor()

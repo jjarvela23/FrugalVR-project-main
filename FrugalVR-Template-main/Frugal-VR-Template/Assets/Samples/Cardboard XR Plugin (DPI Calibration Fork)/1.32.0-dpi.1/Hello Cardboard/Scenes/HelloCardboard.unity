@@ -656,7 +656,6 @@ GameObject:
   - component: {fileID: 955127916}
   - component: {fileID: 955127917}
   - component: {fileID: 955127919}
-  - component: {fileID: 955127927}
   - component: {fileID: 955127929}
   - component: {fileID: 955127928}
   m_Layer: 6
@@ -777,21 +776,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &955127927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955127915}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c85e1dda96674a6488053ce4d890469d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Interaction
-  interactModeOverride: 1
-  twistMultiplierOverride: 0
-  dwellTimerOverride: 0
 --- !u!54 &955127928
 Rigidbody:
   m_ObjectHideFlags: 0
